@@ -21,6 +21,7 @@ gem 'aws-sdk'
 gem 'paperclip'
 gem 'remotipart'
 gem 'jquery-rails'
+gem 'ledermann-rails-settings', :require => 'rails-settings'
 
 # Making the world a better, more stable place
 gem 'airbrake'

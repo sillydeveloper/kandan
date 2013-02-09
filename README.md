@@ -4,6 +4,10 @@ Kandan - [Modern Open Source Chat](http://www.kandanapp.com)
 
 The slickest chat app out there. Open-source and well-supported to boot.
 
+This version includes:
+
+ * Custom settings per user
+
 ![](http://github.com/kandanapp/kandan/raw/master/public/preview.png)
 
 Standard Features
