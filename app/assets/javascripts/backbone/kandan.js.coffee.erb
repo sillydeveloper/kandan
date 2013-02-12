@@ -94,7 +94,7 @@ window.Kandan =
   initChatArea: (channels)->
     chatArea = new Kandan.Views.ChatArea({channels: channels})
     $(".main-area").append(chatArea.render().el)
-    $(document).scrollTop($(document).height()+9000)
+    #$(document).scrollTop($(document).height()+9000)
 
 
   onFetchActiveUsers: (channels)=>

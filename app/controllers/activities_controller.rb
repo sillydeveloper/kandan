@@ -27,7 +27,7 @@ class ActivitiesController < ApplicationController
     more_activities = first_activity_id < (activities.last.try(:id).presence || 1)
 
     respond_to do |format|
-      format.json { render :text => {:activities => activities.reverse, :more_activities => more_activities }.to_json(:include => :user) }
+      format.json { render :text => {:activities => activities, :more_activities => more_activities }.to_json(:include => :user) }
     end
   end
 

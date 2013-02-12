@@ -14,7 +14,6 @@ class Kandan.Data.Attachments
     @cache = data.extra.attachments
     callback(data) for callback in @callbacks[event]
 
-
   @unregisterCallback: (event, callback)->
     delete @callbacks[@callbacks.indexOf(callback)]
     @callbacks.filter (element, index, array)->
