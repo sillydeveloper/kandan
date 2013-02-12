@@ -7,6 +7,7 @@ The slickest chat app out there. Open-source and well-supported to boot.
 This version includes:
 
  * Custom settings per user
+ * Reverses ordering (Twitter-style with recent on top)
 
 ![](http://github.com/kandanapp/kandan/raw/master/public/preview.png)
 
