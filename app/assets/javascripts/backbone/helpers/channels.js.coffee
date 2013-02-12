@@ -123,7 +123,7 @@ class Kandan.Helpers.Channels
 
     if local || (!local && !belongsToCurrentUser && !activityExists)
       @channelActivitiesEl(activityAttributes.channel_id)
-        .append(@newActivityView(activityAttributes).render().el)
+        .prepend(@newActivityView(activityAttributes).render().el)
 
     @flushActivities(activityAttributes.channel_id)
     if not local
